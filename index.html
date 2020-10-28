@@ -5,28 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="../style/style.css">
 </head>
 
 <body>
-    <div class="box">
-        <div class="smile">
-            <h1>Login</h1>
-            <input type="email" id="email" autocomplete="off" required>
-            <label for="email" class="labelemail">
-                <span class="contentemail">Email</span>
-            </label>
-            <input type="password" id="password">
-            <label for="password" class="labelpassword">
-                <span class="contentpassword">password</span>
-            </label>
+    <main>
+        <nav class="header">
+            <h1>Engraphics</h1>
+            <p>Don't have an account? <span>Create Account</span></p>
+        </nav>
+        <form class="login-section">
+            <h1>Welcome Back</h1>
+            <div class="login">
+                <label for="email" class="email">Email</label>
+                <input type="email" id="email" placeholder="e.g. xyz@gmail.com" autocomplete="off" required>
 
-            <button class="btn">
-                <span class="btn">Login</span>
-            </button>
-        </div>
-    </div>
+                <label for="password" class="password">Password <span>Forgot?</span></label>
+                <input type="password" id="password" placeholder="e.g. @B(d195Z" autocomplete="off" required>
+            </div>
+            <button type="submit" class="login-btn">Login to Engraphics</button>
+        </form>
+    </main>
 </body>
 
 </html>
